@@ -1,0 +1,10 @@
+WRITE key-0 val-1
+WRITE key-1 val-3
+WRITE key-2 val-4
+DELETE key-1
+DELETE key-0
+ROLLBACK
+ROLLBACK
+WRITE key-2 val-8
+DELETE key-0
+PRINT
